@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(images/new13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-weight: 50;
+}
+
+.color-1 {
+    color: #f3f3f3;
+}
+
+.allignment {
+    padding: 120px;
+    color: snow;
+    margin: 10px 50px;
+
+}
+
+h1 {
+    font-size: 53px;
+}
+
+#send-help {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(white, green);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.color-red {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    justify-self: center;
+}
+
+.container .one-hundred {
+    text-align: center;
+    background-color: snow;
+    padding: 30px;
+}
+
+
+.container .two-hundred {
+    text-align: center;
+    background-color: rgba(202, 247, 219, 0.89);
+    border: 2px solid rgb(34, 207, 63);
+    border-radius: 10px;
+    color: rgba(8, 138, 51, 0.575);
+    padding: 30px;
+}
+
+
+
+.container .three-hundred {
+    text-align: center;
+    background-color: snow;
+    padding: 30px;
+}
+
+
+
+.container .four-hundred {
+    text-align: center;
+    background-color: snow;
+    padding: 30px;
+}
+
+
+
+.container .five-hundred {
+    text-align: center;
+    background-color: snow;
+    padding: 30px;
+}
+
+
+
+
+.donate-today {
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+.donate-today .container {
+    margin: 30px;
+
+}
+
+.donate-today button {
+    margin: 50px;
+}
+
+
+
+.input-1 input {
+    margin: 10px;
+    width: 700px;
+    border-style: none;
+    text-align: center;
+    outline: none;
+}
+
+
+
+.hr {
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+#button-1 {
+    margin-top: 50px;
+}
+
+
+#button-2 {
+
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(white, green);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.donate-plan {
+    text-align: center;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 250px;
+    height: auto;
+    position: relative;
+    background: seashell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+
+
+.card:nth-child(1) .card-image {
+    background-image: url(images/medicines.jpg);
+}
+
+.card:nth-child(2) .card-image {
+    background-image: url(images/drinkingwater.jpg);
+}
+
+.card:nth-child(3) .card-image {
+    background-image: url(images/food.jpg);
+}
+
+.card .card-image {
+    height: 150px;
+    width: 150px;
+    border: 5px solid green;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.card .card-title {
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+
+
+
+
+.card .card-text {
+    line-height: 20px;
+    font-size: 400;
+}
+
+
+
+.table-1 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 10px;
+    font-size: 0.9em;
+    width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.content-table thead tr {
+    background-color: #009879;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+
+}
+
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+
+}
+
+
+
+.contact-me {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.contact-me2 {
+    width: 40%;
+    margin-left: 345px;
+    padding: 30px;
+    background-color: #fce6d7;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.contact-me2 input {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.comments {
+    margin-bottom: 40px;
+}
+
+
+
+footer {
+
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
+
+
+.white {
+    color: white;
+}
