@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: 'Merriweather', serif;
 }
 
@@ -275,7 +275,7 @@ h1 {
 
 .contact-me2 {
     width: 40%;
-    margin-left: 345px;
+    margin: 0px auto;
     padding: 30px;
     background-color: #fce6d7;
     text-align: center;
